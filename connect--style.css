@@ -1,9 +1,10 @@
+
 #portfolio_logo{
     position: absolute;
     width: 50px;
     height: 50px;
     flex-shrink: 0;
-    margin: 15px 1314.62px 794px 50px;
+    margin: 15px 45px;
 }
 
 #maintxt{
@@ -22,6 +23,14 @@
     justify-content: center;
     flex-shrink: 0;
 }
+
+#enter1,
+#enter2,
+#enter3 {
+    font-size: 20px; /* Update the desired font size */
+    font-family: "Poppins", sans-serif; /* Use Poppins font family */
+}
+
 
 #img1{
     position: absolute;

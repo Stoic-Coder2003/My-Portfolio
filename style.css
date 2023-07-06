@@ -36,7 +36,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #787A91;
+    color: #161616;
     font-size: 18px;
     font-weight: 500;
     line-height: 23.4px;
@@ -45,7 +45,7 @@ nav a {
 
 nav a:hover {
     text-decoration: #FFFFFF;
-    color: #FFFFFF;
+    color: #9ddadb;
     font-size: 18px;
     font-weight: 500;
     line-height: 23.4px;
