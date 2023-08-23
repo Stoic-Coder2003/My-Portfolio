@@ -79,6 +79,10 @@ nav a:hover {
     z-index: 1;
 }
 
+#name-main{
+    align-items: center;
+}
+
 #name {
     position: relative;
     top: -57px;
