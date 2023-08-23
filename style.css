@@ -65,40 +65,8 @@ nav a:hover {
     padding-top: 86px;
 }
 
-.mainimg {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    flex-shrink: 0;
-    border-radius: 500px;
-    overflow: hidden;
-    z-index: 1;
-}
 
-#name {
-    position: relative;
-    top: -57px;
-    text-align: center;
-    font-size: 96px;
-    font-weight: 700;
-}
 
-#stroke--name {
-    position: relative;
-    top: -173px;
-    width: 944px;
-    text-align: center;
-    font-size: 96px;
-    font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    z-index: 10;
-}
 
 #text {
     width: 944px;
