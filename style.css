@@ -169,7 +169,7 @@ nav a:hover {
 @keyframes moveAnimation {
     0% {
         left: -10%;
-        top: 154%;
+        top: 152%;
     }
     100% {
         left: 1100px;
@@ -331,23 +331,23 @@ nav a:hover {
     margin-top: 25px;
 }
 
-#big--text2{
+.big--text2{
     text-align: center;
     font-size: 99px;
     font-weight: 700;
     line-height: 110px;
     text-transform: uppercase;
-    padding-bottom: 55px;
-    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 25px;
 }
 
-#small-text2{
+.small-text2{
     width: 1163px;
     text-align: center;
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
-    padding-bottom: 125px;
+    padding-bottom: 100px;
 }
 
 #chefio--image{
@@ -355,8 +355,21 @@ nav a:hover {
     margin-bottom:60px;
 }
 
+#medicol--image{
+    margin-top: 35px;
+    margin-bottom:60px;
+}
+
 .element{
 margin: 10px;
+}
+
+#trigger-area{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 #logos{
@@ -367,4 +380,49 @@ margin: 10px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
+}
+
+#end-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#conclusion{
+    width: 1163px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 50px;
+}
+
+#pointing{
+    display: flex;
+    justify-content: center;
+    animation: motionAnimation 2s  ease-in-out 8;
+}
+
+#motion-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@keyframes motionAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(+25px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(+25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
