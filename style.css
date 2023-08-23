@@ -382,6 +382,7 @@ margin: 10px;
     font-weight: 700;
 }
 
+
 #end-part{
     display: flex;
     justify-content: center;
@@ -426,3 +427,4 @@ margin: 10px;
         transform: translateY(0);
     }
 }
+
